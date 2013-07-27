@@ -20,14 +20,18 @@ for Chromium browser should be generated in the Internet category.
 
 The package installs the Chromium open source web browser and does not include
 the additional proprietary parts of Google Chrome. It can use the system plugins
-for Flash and Java. To install the PDF plugin of Google Chrome, the libpdf.so
-file can be copied from an existing Chrome installation or by using the
-included helper script that downloads an RPM of Google Chrome, and extracts
-and copies the libpdf.so,
-  $ bash chrome_libpdf_copy.sh
+for Flash and Java. There is a script included to download and incorporate the
+PepperFlash plugin from Google Chrome to use with chromium:
 
-  Another helper script is provided to install PepperFlash,
   $ bash chrome_pepperflash_copy.sh
+
+There is another script for the Google Chrome pdf viewer called 
+chrome_libpdf_copy.sh, however the you must use an older version of chrome 
+since the new libpdf.so is compiled with a new glibc.  However, there is a
+chrome extension called "Docs PDF/PowerPoint Viewer" that will add in line
+PDF viewing back to chromium.  You can get it here once chromium is installed:
+
+https://chrome.google.com/webstore/detail/docs-pdfpowerpoint-viewer/nnbmlagghjjcbdhgmkedmbmedengocbn?hl=en
 
 Details:
 ========
