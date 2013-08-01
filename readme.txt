@@ -4,7 +4,13 @@ Currently, it can be used for building Chromium 28 or higher on
 CentOS 6.4 and the resulting RPM should be installed on any EL 6.
 
 The RPMs built for CentOS are available here:
-  http://people.centos.org/hughesjr/chromium/6/x86_64/RPMS/
+  http://people.centos.org/hughesjr/chromium/6/
+  
+Note:  Beginning with version 28.0.1500.71 of chromium, the standard
+version of Git included with CentOS 6 will no longer work to
+build chromium from google.  The versions of Git supplied in the below
+repo can be used to build chromium on CentOS 6 after version 28.0.1500.71:
+  http://people.centos.org/hughesjr/chromium/build/
 
 Please read the details section before using the build script to learn about
 the heavy system requirements and to customize the version, features and keys.
