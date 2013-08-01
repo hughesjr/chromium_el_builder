@@ -1,7 +1,7 @@
 This project provides shell scripts for building an RPM package
 of Chromium web-browser on Enterprise Linux distributions like CentOS.
 Currently, it can be used for building Chromium 28 or higher on
-CentOS 6.4 and the resulting RPM should be installed on any EL 6.
+CentOS 6.4 and the resulting RPM should be installable on any EL 6 variant.
 
 The RPMs built for CentOS are available here:
   http://people.centos.org/hughesjr/chromium/6/
@@ -32,10 +32,11 @@ PepperFlash plugin from Google Chrome to use with chromium:
   $ bash chrome_pepperflash_copy.sh
 
 There is another script for the Google Chrome pdf viewer called 
-chrome_libpdf_copy.sh, however the you must use an older version of chrome 
-since the new libpdf.so is compiled with a new glibc.  However, there is a
-chrome extension called "Docs PDF/PowerPoint Viewer" that will add in line
-PDF viewing back to chromium.  You can get it here once chromium is installed:
+chrome_libpdf_copy.sh, however you must use an older version of chrome 
+with this script since the new libpdf.so is compiled with a new glibc.  However,
+there is a chrome extension called "Docs PDF/PowerPoint Viewer" that will add in
+line PDF viewing back to chromium.  You can get it here once chromium is
+installed:
 
 https://chrome.google.com/webstore/detail/docs-pdfpowerpoint-viewer/nnbmlagghjjcbdhgmkedmbmedengocbn?hl=en
 
