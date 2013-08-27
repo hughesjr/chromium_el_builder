@@ -8,10 +8,10 @@
 # to find current stable version, true branch and branch revision.
 # Use the revision lookup tool to verify branch revision.
 if [ -z "${CHROMIUM_VERSION}" ]; then
-  CHROMIUM_VERSION="28.0.1500.95"
+  CHROMIUM_VERSION="29.0.1547.57"
 fi
-# CHROMIUM_SVN_BRANCH="1500"
-# CHROMIUM_SVN_REVISION="213514"
+# CHROMIUM_SVN_BRANCH="1547"
+# CHROMIUM_SVN_REVISION="217859"
 
 # Get API keys (one time) as outlined in https://code.google.com/p/chromium/wiki/LinuxBuildInstructions
 # and https://sites.google.com/a/chromium.org/dev/developers/how-tos/api-keys.

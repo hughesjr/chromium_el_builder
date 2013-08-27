@@ -2,8 +2,8 @@
 
 if [ -z "${CHROMIUM_VERSION}" ]; then
   # Unset by default, get current.
-  # CHROMIUM_VERSION=28.0.1500.71
-  # CHROMIUM_SVN_REVISION=209842
+  # CHROMIUM_VERSION=29.0.1547.57
+  # CHROMIUM_SVN_REVISION=217859
   true
 fi
 
